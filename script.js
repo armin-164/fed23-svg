@@ -1,5 +1,6 @@
 var tl = new TimelineLite();
 
+const coolBtn = document.querySelector(".btn");
 const classArray = [".l-1", ".l-2", ".l-3", ".l-4", ".l-5"]
 
 function activateAnimation() {
@@ -10,4 +11,4 @@ function activateAnimation() {
 
 }
 
-activateAnimation();
+coolBtn.addEventListener("click", activateAnimation);
