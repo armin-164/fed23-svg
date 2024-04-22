@@ -5,6 +5,23 @@ body {
 	height: 100vh;
 }
 
+.btn {
+	position: absolute;
+	top: 20%;
+	left: 45%;
+	transform: translate(-25%, -48%);
+	font-size: 2rem;
+	padding: 1rem 2rem;
+	background-color: yellow;
+	font-weight: bold;
+	border: none;
+	box-shadow: 0 0 2px black;
+}
+
+.btn:active {
+	box-shadow: 0 2px 5px black;
+}
+
 svg {
 	stroke-dasharray: 300;
 	stroke-dashoffset: 300;
